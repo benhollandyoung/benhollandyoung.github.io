@@ -81,9 +81,15 @@ svg {
   padding: 0 1.25rem;
 }
 
-main {
-  padding-top: 2.5rem;
+main.wrap {
+  padding-top: 3rem;
   padding-bottom: 4rem;
+}
+
+@media (min-width: 40rem) {
+  main.wrap {
+    padding-top: 4.5rem;
+  }
 }
 
 section {
@@ -437,26 +443,37 @@ nav a[aria-current="page"] {
 
 /* Introduction and portrait */
 
-.intro-head {
+.intro-layout {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 1.5rem 2rem;
-  margin-bottom: 1.5rem;
+  align-items: flex-start;
+  gap: 1.5rem 2.5rem;
 }
 
-.intro-head h1 {
-  margin-bottom: 0.3em;
+.intro-text {
+  flex: 1 1 26rem;
+  min-width: 0;
 }
 
-.intro-head .lede {
-  margin-bottom: 0;
+/* On wider screens the portrait sits on the right of the text */
+@media (min-width: 40rem) {
+  .intro-layout {
+    flex-direction: row-reverse;
+  }
+}
+
+.intro-text h1 {
+  margin-top: 0.25rem;
+}
+
+.intro-text .lede {
+  margin-bottom: 1rem;
 }
 
 .portrait {
   flex: 0 0 auto;
-  width: 9rem;
-  height: 9rem;
+  width: 13rem;
+  height: 13rem;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -473,6 +490,21 @@ nav a[aria-current="page"] {
 }
 
 /* Tutoring */
+
+.reference {
+  margin: 0 0 1.5rem;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--accent);
+}
+
+.reference p {
+  margin-bottom: 0.4rem;
+}
+
+.reference footer {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 
 .tutor-email {
   font-size: 1.2rem;

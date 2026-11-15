@@ -2,15 +2,15 @@
   "intro": "My research develops statistical tools for analysing time series whose behaviour changes over time. The applied questions are often in finance and in the sciences, where regime changes, shocks and non-stationarity are the central difficulty.",
   "current": {
     "title": "Spectral estimation for non-stationary time series",
-    "status": "PhD research in progress, University of Bath, SAMBa Centre for Doctoral Training. Supervisor: Matthew Nunes.",
+    "status": "PhD research in progress, University of Bath, SAMBa Centre for Doctoral Training. Supervisor: [Matthew Nunes](https://mattnunes.github.io/).",
     "summary": "I am currently investigating estimates of spectral quantities for non-stationary time series, i.e. time series whose structure changes with time. I will also implement useful packages for calculating these in Python.",
-    "accessible": "I am currently investigating estimates of spectral quantities for non-stationary time series, i.e. time series whose structure changes with time. I will also implement useful packages for calculating these in Python.",
+    "accessible": "",
     "technical": ""
   },
   "background": {
     "title": "Near-critical percolation and branching processes",
-    "status": "Where I began my PhD, before switching my focus to time series.",
-    "summary": "I began my doctoral research in near-critical percolation and branching processes, two areas of probability theory about random structures and their critical behaviour. I then switched my focus to non-stationary time series.",
+    "status": "Earlier work, before I pivoted my focus to time series.",
+    "summary": "Earlier work in probability theory on near-critical percolation and branching processes. Investigating critical behaviour on slabs with [Christoforos Panagiotis](https://sites.google.com/view/christoforos-panagiotis/). My Masters thesis on branching random walks with [Cécile Mailler](https://cecilemailler.github.io/). A summer project on the conformal invariance of the Abelian sandpile model with Antal Járai.",
     "accessible": "",
     "technical": ""
   },

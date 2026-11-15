@@ -40,7 +40,11 @@ const esc = (s) =>
     .replace(/'/g, "&#39;");
 
 // Escape text, then highlight any [TBC: ...] marker so unfinished content is visible.
-const t = (s) => esc(s).replace(/\[TBC:[^\]]*\]/g, (m) => `<span class="tbc">${m}</span>`);
+// Inline links use [text](https://...) in content files.
+const t = (s) =>
+  esc(s)
+    .replace(/\[([^\]]+)\]\((https:\/\/[^)\s]+)\)/g, (_, label, url) => `<a href="${url}">${label}</a>`)
+    .replace(/\[TBC:[^\]]*\]/g, (m) => `<span class="tbc">${m}</span>`);
 const isTBC = (v) => typeof v === "string" && v.startsWith("[TBC");
 const ul = (items) => `<ul>${items.map((i) => `<li>${t(i)}</li>`).join("")}</ul>`;
 
@@ -148,20 +152,20 @@ function homePage() {
   const featured = projects.filter((p) => p.featured).slice(0, 3);
   const body = `
 <section class="intro">
-  <div class="intro-head">
+  <div class="intro-layout">
     ${portrait()}
-    <div>
+    <div class="intro-text">
       <h1>${esc(site.fullName)}</h1>
       <p class="lede">${t(site.tagline)}</p>
+      <p>${t(site.intro.summary)}</p>
+      <p>${t(site.intro.seeking)} ${t(site.intro.rightToWork)}</p>
+      <p class="actions">
+        <a class="button" href="{{ROOT}}projects/index.html">View projects</a>
+        ${cvButton("button button-quiet")}
+        <a class="button button-quiet" href="{{ROOT}}contact.html">Contact</a>
+      </p>
     </div>
   </div>
-  <p>${t(site.intro.summary)}</p>
-  <p>${t(site.intro.seeking)} ${t(site.intro.rightToWork)}</p>
-  <p class="actions">
-    <a class="button" href="{{ROOT}}projects/index.html">View projects</a>
-    ${cvButton("button button-quiet")}
-    <a class="button button-quiet" href="{{ROOT}}contact.html">Contact</a>
-  </p>
 </section>
 
 <section aria-labelledby="featured-heading">
@@ -372,6 +376,19 @@ function tutoringPage() {
     <dt>Format</dt><dd>${t(tutoring.format)}</dd>
     <dt>Rates</dt><dd>${ul(tutoring.rates)}</dd>
   </dl>
+</section>
+
+<section aria-labelledby="dbs-heading">
+  <h2 id="dbs-heading">Safeguarding</h2>
+  <p>${t(tutoring.dbs)}</p>
+</section>
+
+<section aria-labelledby="references-heading">
+  <h2 id="references-heading">References</h2>
+  ${tutoring.references.map((r) => `<blockquote class="reference">
+    <p>${t(r.quote)}</p>
+    <footer>${t(r.attribution)}</footer>
+  </blockquote>`).join("\n  ")}
 </section>
 
 <section aria-labelledby="enquire-heading">
