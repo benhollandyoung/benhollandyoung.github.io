@@ -1,0 +1,18 @@
+{
+  "intro": "Hi, I’m Ben. I tutor maths one-to-one, online, for students working towards IGCSE, GCSE, A-level, International A-level or the TMUA. I enjoy helping students build confidence as well as technique.",
+  "levels": [
+    "IGCSE",
+    "GCSE",
+    "A-level",
+    "International A-level",
+    "TMUA admissions test preparation"
+  ],
+  "format": "One-hour online sessions, one-to-one.",
+  "rates": [
+    "GCSE and IGCSE: £30 per one-hour session",
+    "A-level and International A-level: £35 per one-hour session",
+    "TMUA preparation: £70 per one-hour session"
+  ],
+  "email": "tutoring@benhollandyoung.com",
+  "contactNote": "Drop me an email with a little about what you are working on: the level, the subjects and any exam dates. I will get back to you as soon as I can."
+}

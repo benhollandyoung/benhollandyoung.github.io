@@ -1,0 +1,163 @@
+[
+  {
+    "slug": "volatility-hmm",
+    "title": "Volatility Hidden Markov Model",
+    "summary": "A hidden Markov model inferring the latent volatility regime (two-state) from FTSE 100 daily returns, implemented from scratch in NumPy with out-of-sample evaluation.",
+    "limitations": [],
+    "links": {
+      "code": "https://github.com/benhollandyoung/Volatility-HMM",
+      "report": null,
+      "demo": null
+    },
+    "context": "Personal project",
+    "status": "In progress",
+    "tools": [
+      "Python",
+      "NumPy",
+      "uv",
+      "pytest"
+    ]
+  },
+  {
+    "slug": "honeydew",
+    "title": "Honeydew",
+    "context": "Local AI project",
+    "status": "Early development (v0.1.0)",
+    "summary": "An open-source, local-first macOS learning agent that aims to turn useful information from your screen into Anki flashcards and short coding exercises.",
+    "problem": "Knowledge encountered while working with AI assistants, reading documentation and learning new concepts is easily forgotten.",
+    "approach": [
+      "Planned: on-device screen observation using macOS APIs, a local language model for topic-aware flashcard generation, and daily CSV export for Anki.",
+      "Designed for privacy-first, offline processing."
+    ],
+    "tools": [
+      "Python 3.12",
+      "uv",
+      "pytest",
+      "ruff",
+      "mypy"
+    ],
+    "results": [
+      "The command-line foundation is implemented. Screen observation, local inference and Anki export are planned but not yet available."
+    ],
+    "limitations": [],
+    "links": {
+      "code": "https://github.com/benhollandyoung/honeydew-learning",
+      "report": null,
+      "demo": null,
+      "website": "https://honeydew.one"
+    }
+  },
+  {
+    "slug": "phd-exchange",
+    "title": "PhD Exchange",
+    "context": "PhD knowledge exchange project",
+    "summary": "Knowledge exchange for researchers: a place for PhD students, postdocs and academics to meet, share their interests and learn about each other’s work outside their own field.",
+    "limitations": [],
+    "links": {
+      "code": null,
+      "report": null,
+      "demo": null,
+      "website": "https://phdexchange.com"
+    }
+  },
+  {
+    "slug": "wavelet-market-shocks",
+    "title": "Wavelet Spectral Features for Financial Shocks",
+    "summary": "Investigating whether wavelet-based spectral features characterise financial shocks and improve out-of-sample volatility forecasts.",
+    "approach": [
+      "Causal wavelet decomposition (MODWT) of return series, with relative band shares of local wavelet power as features.",
+      "Evaluated against standard volatility baselines, including HAR-RV and GARCH models."
+    ],
+    "limitations": [],
+    "links": {
+      "code": null,
+      "report": null,
+      "demo": null
+    },
+    "status": "In progress"
+  },
+  {
+    "slug": "bowler-strategy-hmm",
+    "title": "Hidden Markov Models of Bowler Strategy",
+    "status": "Completed",
+    "period": "June 2026, one-week project",
+    "context": "England and Wales Cricket Board",
+    "summary": "A hidden Markov model of bowler strategy and fatigue, used to classify play into phases of building and releasing pressure on the batter.",
+    "problem": "Bowler strategy and fatigue are not directly observed, but they shape the sequence of deliveries. The partner needed a way to infer these hidden states from the delivery sequence.",
+    "approach": [
+      "Formulated bowler strategy and fatigue as hidden states in a hidden Markov model.",
+      "Inferred the most likely state sequence with the Viterbi algorithm, implemented in Python."
+    ],
+    "tools": [
+      "Python"
+    ],
+    "results": [
+      "Classified play into phases of building and releasing pressure on the batter, approved by expert review."
+    ],
+    "limitations": [],
+    "links": {
+      "code": null,
+      "report": null,
+      "demo": null
+    },
+    "featured": true,
+    "confidentialNote": "Partner data, reports and detailed results are proprietary and are not published here."
+  },
+  {
+    "slug": "macular-degeneration-model",
+    "title": "Stochastic Model of Macular Degeneration",
+    "status": "Co-authored paper submitted",
+    "period": "January 2026, one-week project",
+    "context": "Macular Society",
+    "summary": "An improved cellular automaton model of disease progression that matches observed degeneration patterns.",
+    "problem": "The team needed a stochastic model of disease progression that could be calibrated against observed degeneration patterns.",
+    "approach": [
+      "Improved a stochastic model of disease progression within an interdisciplinary team, in the form of a cellular automaton.",
+      "Simulated the model in Python and calibrated its parameters with macular degeneration researchers."
+    ],
+    "tools": [
+      "Python"
+    ],
+    "results": [
+      "An improved cellular automaton whose simulated degeneration patterns match those observed.",
+      "Co-authored a paper on the model, which has been submitted."
+    ],
+    "limitations": [],
+    "links": {
+      "code": null,
+      "report": null,
+      "demo": null
+    },
+    "featured": true,
+    "confidentialNote": "Partner data, reports and detailed results are proprietary and are not published here."
+  },
+  {
+    "slug": "plasmid-similarity-networks",
+    "title": "Plasmid Similarity Networks",
+    "status": "Completed",
+    "period": "January to March 2026, three-month project",
+    "context": "Department of Biology, University of Bath",
+    "summary": "Random graph models of plasmid similarity, as an alternative to hard-threshold network methods.",
+    "problem": "Current methods that link plasmid genomes into similarity networks rely on hard thresholds, which are subjective. The department wanted a less subjective alternative.",
+    "approach": [
+      "Measured distances between plasmid genomes using three-dimensional chaos game representations.",
+      "Modelled similarity networks with random graph models in Python."
+    ],
+    "tools": [
+      "Python",
+      "NetworkX"
+    ],
+    "results": [
+      "Random graph models offer an alternative to hard-threshold methods for building plasmid similarity networks.",
+      "The trade-off is greater variance in the resulting networks than with thresholding."
+    ],
+    "limitations": [],
+    "links": {
+      "code": null,
+      "report": null,
+      "demo": null
+    },
+    "featured": true,
+    "confidentialNote": "Partner data, reports and detailed results are proprietary and are not published here."
+  }
+]

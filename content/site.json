@@ -1,0 +1,40 @@
+{
+  "name": "Ben Holland Young",
+  "fullName": "Ben Holland Young",
+  "tagline": "PhD Researcher in Statistics and Probability, University of Bath",
+  "description": "Ben Holland Young is a PhD researcher in statistics and probability at the University of Bath, developing statistical tools for non-stationary time series. Seeking quantitative research and machine learning internships.",
+  "siteUrl": "https://benhollandyoung.com/",
+  "email": "benhollandyoung@gmail.com",
+  "github": "https://github.com/benhollandyoung",
+  "linkedin": "https://www.linkedin.com/in/benhollandyoung",
+  "scholar": null,
+  "orcid": null,
+  "cv": {
+    "file": "assets/Benjamin_Holland_Young_CV.pdf",
+    "label": "Download CV (PDF)"
+  },
+  "photo": {
+    "file": "assets/profile-web.jpg",
+    "alt": "Portrait of Ben Holland Young"
+  },
+  "intro": {
+    "summary": "I am a second-year PhD researcher in the SAMBa Centre for Doctoral Training at the University of Bath. My research develops statistical tools for analysing non-stationary time series, where standard stationary methods give misleading answers. I began my PhD in near-critical percolation and branching processes before switching to time series. Through the CDT I have delivered week-long and three-month modelling projects in Python with external partners in healthcare, sport and biology, from problem formulation through to report and presentation.",
+    "seeking": "I am looking for quantitative research and machine learning internships.",
+    "rightToWork": "I have the right to work in the UK and EU."
+  },
+  "education": {
+    "phd": "PhD Mathematics (Statistics and Probability), University of Bath, October 2025 to present. EPSRC-funded, SAMBa Centre for Doctoral Training. Expected completion: November 2029.",
+    "cdt": "Training in advanced probability, statistics, machine learning, numerical analysis and mathematical modelling, including 91% in Numerical Solution of Evolutionary Equations.",
+    "mmath": "MMath Mathematics, First Class Honours (79%), University of Bath, 2020 to 2025.",
+    "grades": [
+      "Stochastic Processes & Finance (93)",
+      "Advanced Real Analysis (97)",
+      "Discrete Probability (90)",
+      "Classical Statistical Inference (90)",
+      "Probability with Martingales (88)",
+      "Topics in Bayesian Statistics (88)",
+      "Markov Processes (85)"
+    ]
+  },
+  "customDomain": "benhollandyoung.com"
+}

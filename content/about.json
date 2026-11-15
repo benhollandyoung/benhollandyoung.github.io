@@ -1,0 +1,34 @@
+{
+  "background": [
+    "PhD Mathematics (Statistics and Probability), University of Bath, October 2025 to present. EPSRC-funded in the SAMBa Centre for Doctoral Training. Expected completion November 2029.",
+    "MMath Mathematics, First Class Honours (79%), University of Bath, 2020 to 2025. Marks of 85 to 97 in probability and statistics modules.",
+    "A-levels, Marriotts School, 2020: Mathematics A*, Further Mathematics A*, Physics A*."
+  ],
+  "cdt": "Training in the SAMBa CDT covers advanced probability, statistics, machine learning, numerical analysis and mathematical modelling, including numerical methods for PDEs. I achieved 91% in Numerical Solution of Evolutionary Equations.",
+  "partnerProjects": "Through the CDT I have completed week-long modelling projects with external partners, including the England and Wales Cricket Board and the Macular Society, and a three-month project with the Department of Biology at Bath. Each one involved formulating the problem, building and simulating the model in Python, and writing up and presenting the results to partners.",
+  "experience": [
+    {
+      "role": "Teaching Assistant",
+      "organisation": "University of Bath",
+      "period": "October 2025 to present",
+      "details": "Lead weekly tutorials in probability and statistics for undergraduates. Mark problem sheets and R-based coursework with written feedback."
+    },
+    {
+      "role": "Private Mathematics Tutor",
+      "organisation": "Self-employed, remote",
+      "period": "September 2022 to present",
+      "details": "One-to-one mathematics tuition for IGCSE, GCSE, A-level and International A-level students, and preparation for the TMUA university admissions test."
+    }
+  ],
+  "skills": {
+    "Programming": "Python (NumPy, pandas, PyTorch, scikit-learn, NetworkX), R, SQL, C++, Git",
+    "Python packages": "Building and testing Python packages with uv (environments and packaging), pytest (tests), mypy (type checking) and ruff (linting and formatting). Command-line tools built with Typer and Rich.",
+    "Methods": "Time series analysis, stochastic modelling, hidden Markov models, Monte Carlo simulation, statistical inference, machine learning",
+    "Writing and typesetting": "LaTeX for technical reports and papers. Clear write-ups for mixed audiences of mathematicians and domain experts.",
+    "Teaching": "Leading tutorials, marking problem sheets and R coursework with written feedback"
+  },
+  "languages": "English (native), French (C1), German (B1)",
+  "events": [
+    "Helped organise a student-led data visualisation seminar with external speaker Nicola Rennie."
+  ]
+}

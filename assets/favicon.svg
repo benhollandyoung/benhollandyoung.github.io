@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Wave mark">
+  <rect width="64" height="64" rx="10" fill="#2e4a6b"/>
+  <path d="M6 36 C12 36 14 22 20 22 S28 42 34 34 S42 18 48 26 S54 34 58 32" fill="none" stroke="#fbfaf7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
